@@ -1,0 +1,50 @@
+{
+  "pipeline": {
+    "name": "getCCLEPSet"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/getCCLE/get_CCLE.R"]
+    },
+  
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/getCCLE.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "ccleProfilesAssemble",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "downAnnotations",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "ccleRawSensitivity",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "downloadcclemolec",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
