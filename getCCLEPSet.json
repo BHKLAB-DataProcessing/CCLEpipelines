@@ -9,6 +9,10 @@
       "/pfs/getCCLE/get_CCLE.R"]
     },
   
+  "resource_requests": {
+    "memory": "4G"
+  },
+  
   "input": {
     "cross": [
       {
