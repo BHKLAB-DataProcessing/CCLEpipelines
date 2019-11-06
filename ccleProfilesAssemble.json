@@ -8,12 +8,11 @@
       "Rscript", 
       "/pfs/ccleProfiles/assembleData.R"]
     },
-  "parallelism_spec":{
-    "constant": 1
-  },
+  
   "resource_requests": {
-    "memory": "0.5G"
+    "memory": "2.0G"
   },
+  
   "input": {
     "cross": [
       {
