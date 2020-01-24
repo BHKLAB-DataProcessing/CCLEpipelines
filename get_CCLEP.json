@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx:v5",
     "cmd": [
       "Rscript", 
-      "/pfs/getCCLE/get_CCLEP.R", "rna1"]
+      "/pfs/get_CCLE/get_CCLEP.R", "rna1"]
     },
   
   "resource_requests": {
@@ -18,7 +18,7 @@
     "cross": [
       {
         "git": {
-          "url": "https://github.com/BHKLAB-Pachyderm/getCCLE.git",
+          "url": "https://github.com/BHKLAB-Pachyderm/get_CCLE.git",
           "name": "",
           "branch": "master"
         }
