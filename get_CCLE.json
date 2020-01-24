@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "getCCLEPSetNew"
+    "name": "get_CCLE"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v5",
@@ -10,7 +10,7 @@
     },
   
   "resource_requests": {
-    "memory": "8G",
+    "memory": "2G",
     "cpu": 0.5
   },
   
@@ -46,7 +46,7 @@
       
       {
         "pfs": {
-          "repo": "downloadcclemolec",
+          "repo": "download_ccle_molec",
           "glob": "/"
         }
       }
