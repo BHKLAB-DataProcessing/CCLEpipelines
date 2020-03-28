@@ -10,8 +10,8 @@
     },
   
   "resource_requests": {
-    "memory": "8G",
-    "cpu": 1.0
+    "memory": "12G",
+    "cpu": 2.0
   },
   "input": {
     "cross": [
