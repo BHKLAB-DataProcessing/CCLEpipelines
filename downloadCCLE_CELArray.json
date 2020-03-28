@@ -1,0 +1,27 @@
+{
+  "pipeline": {
+    "name": "downloadCCLE_CELArray"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v7",
+    "cmd": [
+      "Rscript", 
+      "/pfs/downloadCCLEArray/downloadArray.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "5G",
+    "cpu": 0.5
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/downloadCCLEArray.git",
+          "name": "",
+          "branch": "master"
+        }
+      }
+    ]
+  }
+}
