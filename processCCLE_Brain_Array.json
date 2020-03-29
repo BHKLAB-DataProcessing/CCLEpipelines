@@ -26,6 +26,12 @@
           "repo": "downAnnotations",
           "glob": "/"
         }
+      },
+      {
+        "pfs": {
+          "repo": "downloadCCLE_CELArray",
+          "glob": "/"
+        }
       }
     ]
   }
