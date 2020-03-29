@@ -1,0 +1,26 @@
+{
+  "pipeline": {
+    "name": "processCCLE_BrainArray"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v7",
+    "cmd": [
+      "Rscript", 
+      "/pfs/processCCLEBrainArray/processBrainArray.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "2G"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/processCCLEBrainArray.git",
+          "name": "",
+          "branch": "master"
+        }
+      }
+    ]
+  }
+}
