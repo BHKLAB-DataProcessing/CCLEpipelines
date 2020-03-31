@@ -49,6 +49,12 @@
           "repo": "download_ccle_molec",
           "glob": "/"
         }
+      },
+      {
+        "pfs": {
+          "repo": "processCCLE_Brain-Array",
+          "glob": "/"
+        }
       }
     ]
   }
