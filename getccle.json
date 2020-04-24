@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "getCCLE"
+    "name": "getccle"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v5",
