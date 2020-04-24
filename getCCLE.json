@@ -6,12 +6,12 @@
     "image": "bhklab/pharmacogx:v5",
     "cmd": [
       "Rscript", 
-      "/pfs/get_CCLE/get_CCLEP.R", "rna1"]
+      "/pfs/get_CCLE/get_CCLEP.R", "Kallisto-0.46.1", "Gencode_v33", "a483232ha742832sb"]
     },
   
   "resource_requests": {
-    "memory": "2G",
-    "cpu": 0.5
+    "memory": "8G",
+    "cpu": 1.0
   },
   
   "input": {
@@ -55,7 +55,13 @@
           "repo": "processCCLE_Brain-Array",
           "glob": "/"
         }
-      }
+      },
+      {
+        "pfs": {
+          "repo": "ccle_rnaseq_kallisto_0_46_1",
+          "glob": "/"
+        }
+      },
     ]
   }
 }
