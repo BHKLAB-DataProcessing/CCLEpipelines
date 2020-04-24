@@ -61,7 +61,7 @@
           "repo": "ccle_rnaseq_kallisto_0_46_1",
           "glob": "/"
         }
-      },
+      }
     ]
   }
 }
