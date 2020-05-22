@@ -3,7 +3,7 @@
     "name": "get_ccle"
   },
   "transform": {
-    "image": "bhklab/pharmacogx:v5",
+    "image": "bhklab/pharmacogx2.0:v1",
     "cmd": [
       "Rscript", 
       "/pfs/get_CCLE/get_CCLEP.R", "Kallisto-0.46.1", "Gencode_v33", "a483232ha742832sb"]
