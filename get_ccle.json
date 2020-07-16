@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx2.0:v1",
     "cmd": [
       "Rscript", 
-      "/pfs/get_CCLE/get_CCLEP.R", "Kallisto-0.46.1", "Gencode_v33", "a483232ha742832sb"]
+      "/pfs/get_CCLE/get_CCLEP.R", "Kallisto-0.46.1", "Gencode_v33","microarray", "cnv", "mutation", "a483232ha742832sb"]
     },
   
   "resource_requests": {
