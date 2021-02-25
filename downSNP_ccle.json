@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "downloadSNP_ccle"
+    "name": "downSNP_ccle"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
