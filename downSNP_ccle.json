@@ -10,7 +10,8 @@
     },
   
   "resource_requests": {
-    "memory": "3G"
+    "memory": "8G",
+    "cpu": 1.0
   },
   "input": {
     "cross": [
