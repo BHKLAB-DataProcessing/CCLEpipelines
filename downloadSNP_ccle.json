@@ -1,0 +1,26 @@
+{
+  "pipeline": {
+    "name": "downloadSNP_ccle"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/download_CCLE_SNP/download.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "100M"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/download_CCLE_SNP.git",
+          "name": "",
+          "branch": "master"
+        }
+      }
+    ]
+  }
+}
