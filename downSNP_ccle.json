@@ -10,8 +10,8 @@
     },
   
   "resource_requests": {
-    "memory": "18G",
-    "cpu": 2.0
+    "memory": "24G",
+    "cpu": 3.0
   },
   "input": {
     "cross": [
