@@ -10,7 +10,7 @@
     },
   
   "resource_requests": {
-    "memory": "12G",
+    "memory": "18G",
     "cpu": 2.0
   },
   "input": {
