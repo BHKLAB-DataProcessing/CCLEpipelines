@@ -23,7 +23,7 @@
       },
       {
         "pfs": {
-          "repo": "downCCLESNP",
+          "repo": "downloadCCLE_SNP",
           "glob": "/"
         }
       }
