@@ -1,0 +1,26 @@
+{
+  "pipeline": {
+    "name": "extract_CCLESNP"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v5",
+    "cmd": [
+      "/bin/bash", 
+      "/pfs/ExtractCCLESNP/extract.sh"]
+    },
+  
+  "resource_requests": {
+    "memory": "8G"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/ExtractCCLESNP.git",
+          "name": "",
+          "branch": "main"
+        }
+      }
+    ]
+  }
+}
