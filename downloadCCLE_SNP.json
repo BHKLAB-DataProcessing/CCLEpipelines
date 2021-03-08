@@ -1,12 +1,12 @@
 {
   "pipeline": {
-    "name": "downSNP1_ccle"
+    "name": "downloadCCLE_SNP"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
     "cmd": [
       "Rscript", 
-      "/pfs/download_CCLE_SNP/download.R"]
+      "/pfs/downCCLESNP/download.sh"]
     },
   
   "resource_requests": {
@@ -16,7 +16,7 @@
     "cross": [
       {
         "git": {
-          "url": "https://github.com/BHKLAB-Pachyderm/download_CCLE_SNP.git",
+          "url": "https://github.com/BHKLAB-Pachyderm/downCCLESNP.git",
           "name": "",
           "branch": "main"
         }
