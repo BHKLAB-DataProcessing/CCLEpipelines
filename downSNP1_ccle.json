@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "downSNP_ccle"
+    "name": "downSNP1_ccle"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
@@ -10,8 +10,7 @@
     },
   
   "resource_requests": {
-    "memory": "24G",
-    "cpu": 3.0
+    "memory": "1G"
   },
   "input": {
     "cross": [
