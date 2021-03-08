@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "extract_CCLESNP"
+    "name": "extract_ccleSNP"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v5",
