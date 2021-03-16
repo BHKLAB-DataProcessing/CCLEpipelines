@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "Extract_ccleSNP"
+    "name": "ExtractSNPCCLE"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v5",
@@ -10,7 +10,8 @@
     },
   
   "resource_requests": {
-    "memory": "8G"
+    "memory": "15G",
+    "cpu": 1.0
   },
   "input": {
     "cross": [
